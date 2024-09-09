@@ -1,5 +1,5 @@
 About Shells
--------------	
+
 Interacting with the kernel of the linux operating system is very complex, users of the computer should know complex programming instructions provided by the kernel in writing the programs in talking to 
 the kernel of the operatin system.To help the users to easily interact with the linux operating system in using the computer, the shell utility programs are introduced.
 
@@ -39,7 +39,7 @@ The default and most used shell across the distros is : bash, so we are going to
 We can find which shell interpreter we are in by using echo $0
 
 Bash Command Structure
-----------------------
+
 The command is a program or an action we are performing on the underlying operating system of the command. Structure of the command has three parts to it
 
 Command [options] [arguments]
