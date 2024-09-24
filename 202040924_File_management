@@ -1,26 +1,31 @@
 1. File Management
-Filesystem is a technic or a mechanism that allows us to store, manage and organize the data on the permanent storage device (Harddisk) of the computer. They allow us to store the data permanently on the storage device of the computer interms of Files and Folders
+Filesystem is a technic or a mechanism that allows us to store, manage and organize the data on the permanent storage device
+(Harddisk) of the computer. They allow us to store the data permanently on the storage device of the computer in terms of Files and Folders
 
 What is a File?
 Internals:
-File is an datastructure in which operating system stores the address locations of the data where it has been stored on the harddisk of the computer. In addition to this the operating system captures few more attributes of information pertaining to the data as well like
+File is an data structure in which operating system stores the address locations of the data where it has been stored on the harddisk
+of the computer. In addition to this the operating system captures few more attributes of information pertaining to the data as well
+like
 1. Filename
 2. created date
 3. modified date
 4. owner
 etc
 
-Inorder to access the data that we haved stored on the harddisk of the computer, we need to ask the operating system to fetch the data from the address locations where it is stored, since the address locations of the data is stored within the File we can always ask the operating system to refer these addresses stored in the File in fetching and returning the data
-
-Even though the data is not directly stored within the File, rather file contains address locations where the data is stored, by the way we interact with operating system in asking him to store or fetch the data from the file makes us thing actually the data is stored within the File itself.
+Inorder to access the data that we haved stored on the harddisk of the computer, we need to ask the operating system to fetch the
+data from the address locations where it is stored, since the address locations of the data is stored within the File we can always 
+ask the operating system to refer these addresses stored in the File in fetching and returning the data.
+Even though the data is not directly stored within the File, rather file contains address locations where the data is stored, 
+by the way we interact with operating system in asking him to store or fetch the data from the file makes us thing actually the 
+data is stored within the File itself.
 	
 So from logical definition:
 File is an data structure or physical memory location within the harddisk of the computer in which the data is being stored and accessed.
 	
-
 How to create an file on the filesystem of the computer?
-each linux user has their own home directory location for which he has permissions in creating/accessing the files/folders.
-so we need to navigate to the user home directory inorder to create a file.
+Each linux user has their own home directory location for which he has permissions in creating/accessing the files/folders.
+So we need to navigate to the user home directory inorder to create a file.
 cd = takes you to the user home directory
 
 touch filename
@@ -34,7 +39,6 @@ pwd = print working directory
 
 3. how to see the files and folders in a directory?
 ls = list files and folders under the current working directory
-
 
 4. How to print an message on to the terminal window or console?
 echo "message"
